@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4313506534,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Order_Steps.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Placing an order for product",
+        "description": "",
+        "id": "placing-an-order;placing-an-order-for-product",
+        "after": [
+          {
+            "result": {
+              "duration": 569544258,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Order_Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13167431143,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to page",
+            "match": {
+              "location": "Order_Steps.i_navigate_to_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1305417156,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "Order_Steps.I_login_withvalid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23321580913,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on create order",
+            "match": {
+              "location": "Order_Steps.place_orders()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 374295593691,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I provide user information",
+            "match": {
+              "location": "Order_Steps.user_informations()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210688796370,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I accept and grant the permissions",
+            "match": {
+              "location": "Order_Steps.accept_information()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@placeorder"
+          }
+        ]
+      }
+    ],
+    "name": "Placing an Order",
+    "description": "",
+    "id": "placing-an-order",
+    "keyword": "Feature",
+    "uri": "placeOrder.feature"
+  }
+]
